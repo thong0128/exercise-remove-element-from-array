@@ -8,7 +8,7 @@ public class ElementRemove {
         for (int j : array) {
             System.out.print(j + "\t");
         }
-        System.out.println("");
+        System.out.println();
         System.out.println("Enter element to be removed: ");
         int delElement = scanner.nextInt();
         int index = indexOf(array, delElement);
